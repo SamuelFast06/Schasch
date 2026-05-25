@@ -108,6 +108,29 @@ void Player::kickFigure(const Position& position) {
     }
 }
 
+bool checkCheck(Player& other) {
+    Position kingPos;
+
+    for (Figure* figure: this->figures) {
+        if (type == KING) {
+            kingPos = figure->position;
+            break;
+        }
+    }
+
+    for (Figure* figure: *(other->getFigures())) {
+        vector<Position> posssibleMoves = figure->getPossibleMoves();
+
+        for(Position position: possibleMoves) {
+            if (position == kingPos) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
 vector<Figure*>* Player::getFigures() {
     return &this->figures;
 }
