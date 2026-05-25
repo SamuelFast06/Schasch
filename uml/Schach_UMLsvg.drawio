@@ -1,34 +1,34 @@
 <mxfile host="65bd71144e">
     <diagram name="Seite-1" id="nCow4XG2NqhJep9-Rvd6">
-        <mxGraphModel dx="1329" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2106" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-1" value="&lt;u&gt;Figure&lt;/u&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="318" width="230" height="160" as="geometry">
+                    <mxGeometry x="320" y="318" width="230" height="180" as="geometry">
                         <mxRectangle x="320" y="210" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5yh52Qz2J6MoKP-sfoyT-2" value="# id: String&lt;div&gt;# name: String&lt;/div&gt;&lt;div&gt;# position: Position&lt;/div&gt;&lt;div&gt;# startingPosition: Position&lt;/div&gt;&lt;div&gt;# value: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-1" vertex="1">
-                    <mxGeometry y="26" width="230" height="74" as="geometry"/>
+                <mxCell id="5yh52Qz2J6MoKP-sfoyT-2" value="# id: String&lt;div&gt;# name: String&lt;/div&gt;&lt;div&gt;# position: Position&lt;/div&gt;&lt;div&gt;# startingPosition: Position&lt;/div&gt;&lt;div&gt;# value: int&lt;/div&gt;&lt;div&gt;# alive: bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-1" vertex="1">
+                    <mxGeometry y="26" width="230" height="94" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5yh52Qz2J6MoKP-sfoyT-1" vertex="1">
-                    <mxGeometry y="100" width="230" height="8" as="geometry"/>
+                    <mxGeometry y="120" width="230" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-4" value="&lt;u&gt;+ getPossibleMoves(): vector&amp;lt;Position&amp;gt;&lt;/u&gt;&lt;div&gt;&lt;div&gt;&lt;u&gt;+ move(pos: Position): int&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-1" vertex="1">
-                    <mxGeometry y="108" width="230" height="52" as="geometry"/>
+                    <mxGeometry y="128" width="230" height="52" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-7" value="Position" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="450" width="250" height="180" as="geometry"/>
+                    <mxGeometry x="450" width="290" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-8" value="- x: int&lt;div&gt;- y: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-7" vertex="1">
-                    <mxGeometry y="26" width="250" height="44" as="geometry"/>
+                    <mxGeometry y="26" width="290" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5yh52Qz2J6MoKP-sfoyT-7" vertex="1">
-                    <mxGeometry y="70" width="250" height="8" as="geometry"/>
+                    <mxGeometry y="70" width="290" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="5yh52Qz2J6MoKP-sfoyT-10" value="+ getX(): int&lt;div&gt;+ getY(): int&lt;/div&gt;&lt;div&gt;+ setPosition(x: int, y: int): void&lt;/div&gt;&lt;div&gt;+ setPosition(pos: String): int&lt;/div&gt;&lt;div&gt;+ positionValid(pos: String): bool &amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ operator==(other Position&amp;amp;): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-7" vertex="1">
-                    <mxGeometry y="78" width="250" height="102" as="geometry"/>
+                <mxCell id="5yh52Qz2J6MoKP-sfoyT-10" value="+ getX(): int&lt;div&gt;+ getY(): int&lt;/div&gt;&lt;div&gt;+ setPosition(x: int, y: int): void&lt;/div&gt;&lt;div&gt;+ setPosition(pos: String): int&lt;/div&gt;&lt;div&gt;+ positionValid(const pos: String): bool &amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ operator==(other: Position&amp;amp;): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-7" vertex="1">
+                    <mxGeometry y="78" width="290" height="102" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.509;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="5yh52Qz2J6MoKP-sfoyT-10" target="5yh52Qz2J6MoKP-sfoyT-1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -140,16 +140,16 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-42" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-400" y="210" width="240" height="240" as="geometry"/>
+                    <mxGeometry x="-400" y="210" width="250" height="340" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-43" value="- figures: vector&amp;lt;Figrues*&amp;gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- color: Color&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-42" vertex="1">
-                    <mxGeometry y="26" width="240" height="64" as="geometry"/>
+                    <mxGeometry y="26" width="250" height="64" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5yh52Qz2J6MoKP-sfoyT-42" vertex="1">
-                    <mxGeometry y="90" width="240" height="8" as="geometry"/>
+                    <mxGeometry y="90" width="250" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="5yh52Qz2J6MoKP-sfoyT-45" value="+ surrender(): void&lt;div&gt;+ offerDraw(): void&lt;/div&gt;&lt;div&gt;+ makeMove(): void&lt;/div&gt;&lt;div&gt;- chooseFigure(): Figure*&lt;/div&gt;&lt;div&gt;- figureOnPosition(position: Position): bool&lt;/div&gt;&lt;div&gt;- moveFigure(figure: Figure*): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ checkCheck(other: Player*): bool&lt;/div&gt;&lt;div&gt;+ checkMate(other: Player*): bool&lt;/div&gt;&lt;div&gt;+ getFigures(): (vector&amp;lt;Figures*&amp;gt;)*&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-42" vertex="1">
-                    <mxGeometry y="98" width="240" height="142" as="geometry"/>
+                <mxCell id="5yh52Qz2J6MoKP-sfoyT-45" value="+ surrender(): void&lt;div&gt;+ offerDraw(): void&lt;/div&gt;&lt;div&gt;+ makeMove(): void&lt;/div&gt;&lt;div&gt;- chooseFigure(): Figure&amp;amp;&lt;/div&gt;&lt;div&gt;- figureOnPosition(position: Position): bool&lt;/div&gt;&lt;div&gt;- moveFigure(figure: Figure&amp;amp;, otherPlayer: Player&amp;amp;): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- getPossibleMoves(const Figure&amp;amp; figure, const Player&amp;amp; otherPlayer): vector&amp;lt;Position&amp;gt;&lt;/div&gt;&lt;div&gt;+ checkCheck(other: Player&amp;amp;): bool&lt;/div&gt;&lt;div&gt;+ checkMate(other: Player&amp;amp;): bool&lt;/div&gt;&lt;div&gt;+ getFigures(): (vector&amp;lt;Figures*&amp;gt;)*&lt;/div&gt;&lt;div&gt;+ kickFigure(position: const Position&amp;amp;): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-42" vertex="1">
+                    <mxGeometry y="98" width="250" height="242" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-46" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Color&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-390" y="10" width="140" height="82" as="geometry"/>
@@ -167,7 +167,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-51" value="Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-380" y="510" width="160" height="190" as="geometry"/>
+                    <mxGeometry x="-380" y="585" width="160" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-52" value="- players: Player*[2]&lt;div&gt;- currentPlayer: Player*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5yh52Qz2J6MoKP-sfoyT-51" vertex="1">
                     <mxGeometry y="26" width="160" height="54" as="geometry"/>
@@ -181,8 +181,9 @@
                 <mxCell id="5yh52Qz2J6MoKP-sfoyT-55" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.999;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5yh52Qz2J6MoKP-sfoyT-2" edge="1" target="5yh52Qz2J6MoKP-sfoyT-45">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-40" y="273"/>
-                            <mxPoint x="-40" y="318"/>
+                            <mxPoint x="320" y="273"/>
+                            <mxPoint x="-80" y="273"/>
+                            <mxPoint x="-80" y="329"/>
                         </Array>
                         <mxPoint x="290" y="310" as="sourcePoint"/>
                         <mxPoint x="-200" y="300" as="targetPoint"/>
@@ -193,8 +194,8 @@
                         <mxPoint x="-270" y="590" as="sourcePoint"/>
                         <mxPoint x="-110" y="590" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="-279" y="480"/>
-                            <mxPoint x="-300" y="480"/>
+                            <mxPoint x="-279" y="560"/>
+                            <mxPoint x="-300" y="560"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
